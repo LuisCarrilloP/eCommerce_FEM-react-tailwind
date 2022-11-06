@@ -12,7 +12,7 @@ const MainHeader = () => {
   const [navClass, setNavClass] = useState('hidden font-bold md:font-light md:static md:mr-auto md:flex md:h-auto md:flex-row md:gap-4 md:p-0')
 
   const handleOpenMenu = () => {
-    setNavClass('absolute top-0 left-0 h-full p-8 gap-y-6 font-bold w-3/5 bg-white flex flex-col md:flex-row md:mr-auto md:flex md:gap-4 md:static md:p-0')
+    setNavClass('absolute top-0 left-0 h-full p-8 gap-y-2 font-bold w-3/5 bg-white flex flex-col md:flex-row md:mr-auto md:flex md:gap-4 md:static md:p-0 z-10')
   }
   const handleCloseMenu = () => {
     setNavClass('hidden font-bold md:static md:mr-auto md:flex md:h-auto md:flex-row md:gap-4 md:p-0')
